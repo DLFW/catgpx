@@ -7,7 +7,7 @@ import unittest
 import os
 import gpxpy.gpx
 from datetime import datetime, timedelta
-from catgpx.catgpx import (
+from pycatgpx import (
 	get_start_time_of_track,
 	get_gpxs_from_filenames,
 	get_concatenated_gpx
@@ -65,3 +65,5 @@ class ConcatenationTest(unittest.TestCase):
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.testName']
 	unittest.main()
+	
+	
